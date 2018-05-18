@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    background-color: #96f48b;
+}
+header{
+    background-color: #35ce47;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+main{
+    border-bottom:1px solid #ccc;
+    position:relative;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    display:flex;  /* 定義 */
+    justify-content: center;
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+
+#noteName{
+  display: block;
+  width: 480px;
+  font-size: 24px;
+  margin: 20px auto;
+  height: auto;
+  line-height: auto;
+}
+
+#text_area {
+  display: block;
+  width: 480px;
+  height: 500px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size:16px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px;
+    margin: 0 20px;
+    font-size: 36px;
+}
+
+.button:hover{
+    color:#444;
+}
+
+#back {
+  margin: 0 36%;
+}
+
+/********************
+    notelist
+**********************/
+
+#buttonContainer{
+    display: flex;
+    margin-left: 10%;
+}
+
+#cardContainer{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: left;
+}
+
+#addCardButton{
+    font-size: 100px;
+    text-align: center;
+    line-height: 250px;
+    border: none;
+    background-color: #96f48b;
+}
+#addCardButton:hover{
+    color: #444;
+}
+
+
+.noteCard{
+    border: solid 1px #aaa;
+    background-color: #fff;
+    width: 200px;
+    height:250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.cardTitle{
+    font-size: 20px;
+    padding: 20px 5px;
+}
+
+.cardContent{
+    font-size: 16px;
+    padding: 5px;
+}
